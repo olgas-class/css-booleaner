@@ -40,3 +40,21 @@ table heading - #20a9e5
   background-color: #ffff00;
   font-weight: 500;
 }
+
+.section-table {
+  border-collapse: collapse;
+  /* border-spacing: 0; */
+}
+
+.section-table thead {
+  background-color: #20a9e5;
+  text-align: left;
+}
+
+.section-table .odd-row {
+  background-color: #b1e5f2;
+}
+
+.section-table .large-row {
+  width: 50%;
+}
