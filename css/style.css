@@ -58,3 +58,28 @@ table heading - #20a9e5
 .section-table .large-row {
   width: 50%;
 }
+
+.section-title {
+  font-size: 16px;
+  color: #808080;
+}
+
+.related-article {
+  width: 250px;
+  height: 250px;
+  background-color: aquamarine;
+  background-size: cover;
+  background-position: center;
+}
+
+.related-article-title {
+  color: white;
+}
+
+#computer {
+  background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+  background-image: url(../img/graph.jpg);
+}
