@@ -35,3 +35,8 @@ table heading - #20a9e5
 .caption {
   font-size: 12px;
 }
+
+.highlight {
+  background-color: #ffff00;
+  font-weight: 500;
+}
