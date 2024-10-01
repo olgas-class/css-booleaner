@@ -1,0 +1,15 @@
+/* 
+table row - #b1e5f2 
+table heading - #20a9e5
+*/
+
+.header {
+  background-color: #4ea0ff;
+  background-image: url(../img/pattern.png);
+  background-size: 400px;
+  height: 100px;
+}
+
+.header-logo {
+  width: 150px;
+}
