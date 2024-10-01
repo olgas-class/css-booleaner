@@ -13,3 +13,25 @@ table heading - #20a9e5
 .header-logo {
   width: 150px;
 }
+
+.title-main {
+  font-size: 36px;
+}
+
+.title-author {
+  color: #808080;
+  font-size: 20px;
+}
+
+.title-author strong {
+  color: #20a9e5;
+}
+
+.title-date {
+  color: #808080;
+  font-size: 12px;
+}
+
+.caption {
+  font-size: 12px;
+}
