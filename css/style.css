@@ -1,0 +1,74 @@
+/* Reset */
+a {
+  color: inherit;
+}
+
+/* Utilites */
+.text-gray {
+  color: gray;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+/* Header */
+header {
+  height: 80px;
+  background-color: rgb(74, 108, 220);
+  background-image: url(../img/pattern.png);
+  background-size: 250px;
+}
+
+.header-image {
+  height: 50px;
+  width: auto;
+}
+
+/* Content */
+.section-title {
+  font-size: 16px;
+}
+
+.author {
+  color: blue;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+thead {
+  background-color: blue;
+  color: white;
+}
+
+.bg-lightblue {
+  background-color: lightblue;
+}
+
+.small-col {
+  width: 25%;
+}
+
+.large-col {
+  width: 50%;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.monitor {
+  background-image: url(../img/monitor.jpg);
+}
+
+.graph {
+  background-image: url(../img/graph.jpg);
+}
