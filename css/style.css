@@ -1,6 +1,16 @@
 /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 a {
   color: inherit;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 /* Utilites */
@@ -12,8 +22,21 @@ a {
   font-size: 12px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* Layout */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  /* regola di debug */
+  /* border: 1px solid black; */
+}
+
 /* Header */
 header {
+  padding-top: 25px;
   height: 80px;
   background-color: rgb(74, 108, 220);
   background-image: url(../img/pattern.png);
@@ -26,6 +49,10 @@ header {
 }
 
 /* Content */
+main {
+  padding-top: 30px;
+}
+
 .section-title {
   font-size: 16px;
 }
@@ -58,11 +85,15 @@ thead {
 }
 
 .card {
+  display: inline-block;
   width: 200px;
   height: 200px;
+  line-height: 200px;
   background-position: center;
   color: white;
   margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
 }
 
 .monitor {
